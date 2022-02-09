@@ -24,9 +24,9 @@ for key in freq_dict:
         mod_key = key            #number
 
 print(f"Mode in list:")
+# finds every modes in list
 for key in freq_dict:
     if freq_dict[key] == mod_val:        
         print(f"    {key}")
-
 
 print(f"frequency: {mod_val}")
